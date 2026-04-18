@@ -1,0 +1,18 @@
+PAIRS WITH CORRELATION > 0.95 — DROP ONE FROM EACH PAIR
+============================================================
+velocity_a / wall_shear_a  (corr=-0.9532)
+velocity_a / velocity_c  (corr=0.9697)
+wall_shear_a / wall_shear_c  (corr=0.9858)
+node_b_pressure / pressure_drop_bc  (corr=0.9677)
+velocity_b / flow_velocity  (corr=1.0000)
+
+ALWAYS DROP
+============================================================
+dp_dt_a
+dp_dt_b
+dp_dt_c
+effect_factor
+flow_velocity
+timestep
+fault_type
+scenario_id
