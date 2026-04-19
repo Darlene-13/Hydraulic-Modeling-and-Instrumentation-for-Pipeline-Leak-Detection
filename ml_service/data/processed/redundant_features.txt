@@ -2,9 +2,17 @@ PAIRS WITH CORRELATION > 0.95 — DROP ONE FROM EACH PAIR
 ============================================================
 velocity_a / wall_shear_a  (corr=-0.9532)
 velocity_a / velocity_c  (corr=0.9697)
+velocity_a / velocity_drop_ab  (corr=0.9674)
 wall_shear_a / wall_shear_c  (corr=0.9858)
+wall_shear_a / velocity_drop_ab  (corr=-0.9607)
+wall_shear_a / velocity_drop_bc  (corr=0.9559)
 node_b_pressure / pressure_drop_bc  (corr=0.9677)
 velocity_b / flow_velocity  (corr=1.0000)
+velocity_c / velocity_drop_bc  (corr=-0.9672)
+wall_shear_c / velocity_drop_ab  (corr=-0.9570)
+wall_shear_c / velocity_drop_bc  (corr=0.9529)
+pressure_drop_ab / pressure_gradient_ratio  (corr=0.9606)
+velocity_drop_ab / velocity_drop_bc  (corr=-0.9833)
 
 ALWAYS DROP
 ============================================================

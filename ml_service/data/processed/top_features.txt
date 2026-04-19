@@ -12,8 +12,11 @@ wall_shear_b
 tdr_a
 dp_dt_a
 dp_dt_b
+velocity_drop_ab
+velocity_drop_bc
 velocity_a
 velocity_c
+pressure_gradient_ratio
 dp_dt_c
-flow_velocity
 velocity_b
+flow_velocity
