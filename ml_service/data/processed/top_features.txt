@@ -1,9 +1,9 @@
 node_b_pressure
 pressure_drop_bc
+node_c_pressure
 pressure_drop_ab
 pressure_drop_ac
 node_a_pressure
-node_c_pressure
 tdr_b
 tdr_c
 wall_shear_c
@@ -11,12 +11,12 @@ wall_shear_a
 tdr_a
 wall_shear_b
 dp_dt_a
-pressure_gradient_ratio
+dp_dt_c
 dp_dt_b
 velocity_drop_ab
 velocity_drop_bc
-dp_dt_c
 velocity_a
+pressure_gradient_ratio
 velocity_c
 velocity_b
 flow_velocity
